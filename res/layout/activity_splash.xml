@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    tools:context=".SplashActivity" >
+
+    <ImageView 
+        android:id="@+id/splashimg"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/wheather_icon"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+    
+    <!-- 
+        android:layout_centerInParent="true" -->
+    
+     <TextView
+        android:id="@+id/splashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/splashimg"
+        android:visibility="gone"/>
+ 
+</RelativeLayout>

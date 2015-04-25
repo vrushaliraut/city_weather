@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/facebook"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Container"
+        android:layout_width="match_parent"
+        android:layout_height="45sp"
+        android:layout_margin="15dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnAdd_City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:background="@drawable/rouded_sub_button"
+            android:text="Add City Names"
+            android:textColor="@color/counter_text_bg"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/editAddCity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/trasparent"
+            android:ems="10"
+            android:hint="Enter your City"
+            android:textSize="17sp" />
+
+        <ImageView
+            android:id="@+id/ImgAddCity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.20"
+            android:paddingRight="5dp"
+            android:src="@drawable/add1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_corner"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSelectedCities"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/rouded_sub_button"
+        android:text="SelectedCities"
+        android:textColor="@color/counter_text_bg"
+        android:textSize="17sp" />
+
+</LinearLayout>

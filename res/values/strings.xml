@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheatherApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="Multiple_City"> Multiple City</string>
+    <string name="Perticular_City">Perticular city</string>
+    <string name="title_activity_multiple_city_list">MultipleCityListActivity</string>
+    <string name="title_activity_perticular_city">PerticularCityActivity</string>
+    <string name="title_activity_citi_list">CitiListActivity</string>
+    <string name="title_jsonparsing">JsonParsing</string>
+    <string name="wid">ID</string>
+    <string name="name">Name</string>
+    <string name="url">Website</string>
+	<string name="info">Website Information from URL</string>
+</resources>
